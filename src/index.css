@@ -34,9 +34,9 @@ body {
   margin: 1rem;
   background-color: #373b70;
   border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .movie-info {
   display: flex;
@@ -56,8 +56,12 @@ movie_info h3 {
   left: 0;
   right: 0;
   color: #22254b;
-  transform: translateY(100%);
+  transform: translateY(102%);
   transition: transform 0.3s ease-in-out;
+  
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .movie:hover .movie-over {
